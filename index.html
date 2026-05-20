@@ -1,11 +1,85 @@
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <h1>Ciao Fede sei fuori dal castello bello</h1>
-    <img src="castello-bello.jpg" />
-    <p>Cosa vuoi fare?</p>
-    <a href="fossato.html">Salta il fossato</a> oppure <a href="entra.html">entra nel castello</a>
-  </body>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Metaverso a Scuola</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f4f7fb;
+      color: #1b1f3b;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 1rem;
+    }
+
+    .banner {
+      max-width: 900px;
+      width: 100%;
+      background: #ffffff;
+      border-radius: 24px;
+      box-shadow: 0 18px 45px rgba(30, 40, 80, 0.12);
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+      transition: transform 0.22s ease, box-shadow 0.22s ease;
+    }
+
+    .banner:hover,
+    .banner:focus-visible {
+      transform: translateY(-2px);
+      box-shadow: 0 24px 60px rgba(30, 40, 80, 0.16);
+    }
+
+    .banner img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      display: block;
+    }
+
+    .banner-content {
+      padding: 1.75rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    .banner-title {
+      margin: 0;
+      font-size: clamp(2rem, 2.5vw, 3rem);
+      line-height: 1.05;
+    }
+
+    .banner-description {
+      margin: 0;
+      font-size: 1.05rem;
+      line-height: 1.8;
+      color: #444b70;
+    }
+
+    @media (max-width: 768px) {
+      .banner {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a class="banner" href="https://aab016.github.io/studious-guide/" target="_blank" rel="noopener noreferrer">
+    <img src="https://aab016.github.io/studious-guide/assets/metaverso-a-scuola.png" alt="Metaverso a Scuola">
+    <div class="banner-content">
+      <h1 class="banner-title">Metaverso a Scuola</h1>
+      <p class="banner-description">Una piattaforma per esperienze VR educative STEAM+ per la scuola superiore costruite da studenti di Informatica per insegnanti non informatici!</p>
+    </div>
+  </a>
+</body>
 </html>
