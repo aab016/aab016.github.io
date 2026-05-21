@@ -1,0 +1,30 @@
+{
+  "name": "Metaverso a Scuola",
+  "short_name": "Metaverso a Scuola",
+  "description": "Una piattaforma per esperienze VR educative STEAM+ per la scuola superiore",
+  "start_url": "/studious-guide/index.html",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#000000",
+  "theme_color": "#6b46c1",
+  "icons": [
+    {
+      "src": "/studious-guide/assets/metaverso-a-scuola.black.square.192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/studious-guide/assets/metaverso-a-scuola.black.square.512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["education"],
+  "screenshots": [
+    {
+      "src": "/studious-guide/assets/metaverso-a-scuola.png",
+      "sizes": "540x720",
+      "type": "image/png"
+    }
+  ]
+}
