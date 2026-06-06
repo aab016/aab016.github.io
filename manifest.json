@@ -3,6 +3,7 @@
   "short_name": "Metaverso a Scuola",
   "description": "Una piattaforma per esperienze VR educative STEAM+ per la scuola superiore",
   "start_url": "/studious-guide/index.html",
+  "scope": "https://aab016.github.io/",
   "display": "fullscreen",
   "orientation": "landscape",
   "background_color": "#000000",
