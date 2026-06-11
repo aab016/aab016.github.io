@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directory Listing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        th {
+            background-color: #f9f9f9;
+            padding: 10px;
+            text-align: left;
+            border-bottom: 2px solid #ddd;
+            font-weight: bold;
+        }
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        tr:hover {
+            background-color: #f9f9f9;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Index of .well-known/</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Filename</th>
+                <th>What</th>
+            </tr>
+        </thead>
+        <tbody id="fileList">
+            <tr>
+                <td><a href="assetlinks.json">assetlinks.json</a></td>
+                <td>Used by Meta Quest 2 TWA to verify the domain</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
